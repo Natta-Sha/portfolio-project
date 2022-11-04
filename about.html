@@ -31,19 +31,28 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Natalia logo"
+            title="Homepage"
+          />
           <img
             src="images/logo-small.jpg"
             class="logosmall d-block d-md-none"
-            alt=""
+            alt="Natalia logo"
           />
         </a>
         <ul>
-          <li><a href="/"> Home </a></li>
-          <li class="active"><a href="/about.html">About </a></li>
-          <li><a href="/work.html">Work </a></li>
-          <li><a href="/contact.html">Contact </a></li>
+          <li><a href="/" title="Homepage"> Home </a></li>
+          <li class="active">
+            <a href="/about.html" title="About Natalia">About </a>
+          </li>
+          <li><a href="/work.html" title="Natalia's works">Work </a></li>
+          <li>
+            <a href="/contact.html" title="Natalia's contact info">Contact </a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -59,11 +68,20 @@
               everything is well explained, homework and deadlines are good for
               keep focus
             </p>
-            <a href="#" class="btn btn-branding">View my projects</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding"
+              title="Natalia's project"
+              >View my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/patricia.png" alt="" class="img-fluid" />
+          <img
+            src="images/patricia.png"
+            alt="Natalia's photo"
+            class="img-fluid"
+          />
         </div>
       </div>
       <footer>
@@ -71,27 +89,55 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div class="">
-            <h4>Work inquiry</h4>
+            <h3>Work inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
-          <div><a href="" class="btn btn-branding mt-3">Contact me</a></div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact info"
+              >Contact me</a
+            >
+          </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:natalia@ukr.net" class="email-link"
+          <a
+            href="mailto:natalia@ukr.net"
+            class="email-link"
+            title="Natalia's email"
             >natalia@ukr.net</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.facebook.com/natalia" target="_blank"
+          <a
+            href="https://www.facebook.com/natalia"
+            target="_blank"
+            title="Facebook"
             ><i class="fa-brands fa-facebook"></i
           ></a>
-          <a href="https://www.instagram.com/natalia" target="_blank"
+          <a
+            href="https://www.instagram.com/natalia"
+            target="_blank"
+            title="Instagram"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://www.github.com/natta-sha" target="_blank"
+          <a
+            href="https://www.github.com/natta-sha"
+            target="_blank"
+            title="Github"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by NBohdanova and it is
+          <a
+            href="https://github.com/Natta-Sha/portfolio-project"
+            title="Link to Github"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

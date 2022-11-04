@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Natalia is a front-end engineer originated in Ukraine and based in Slovakia"
+    />
+    <title>Front-End Developer - Natalia Bohdanova</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,19 +35,26 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Natalia logo"
+            title="Homepage"
+          />
           <img
             src="images/logo-small.jpg"
             class="logosmall d-block d-md-none"
-            alt=""
+            alt="Natalia logo"
           />
         </a>
         <ul>
-          <li class="active"><a href="/"> Home </a></li>
-          <li><a href="/about.html">About </a></li>
-          <li><a href="/work.html">Work </a></li>
-          <li><a href="/contact.html">Contact </a></li>
+          <li class="active"><a href="/" title="Homepage"> Home </a></li>
+          <li><a href="/about.html" title="About Natalia">About </a></li>
+          <li><a href="/work.html" title="Natalia's works">Work </a></li>
+          <li>
+            <a href="/contact.html" title="Natalia's contact info">Contact </a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -53,7 +64,12 @@
       <h1>Natalia Bohdanova</h1>
       <h2 class="mb-5">Front-End developer based in Slovakia</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a
+          href="/contact.html"
+          class="btn btn-branding"
+          title="Natalia's contact info"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
@@ -62,7 +78,11 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block ms-5 me-5">
-          <img src="./images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="./images/weather.png"
+            class="img-fluid"
+            alt="Weather App photo"
+          />
         </div>
         <div class="col ms-5 me-5">
           <div class="project-description">
@@ -73,7 +93,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding-outline"
+              title="Project details"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -87,16 +112,29 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding-outline"
+              title="Project details"
+              >Learn more</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block ms-5">
-          <img src="./images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="./images/dictionary.png"
+            class="img-fluid"
+            alt="Dicitionary App photo"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block ms-5">
-          <img src="./images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="./images/yogurt.png"
+            class="img-fluid"
+            alt="Yogurt project photo"
+          />
         </div>
         <div class="col ms-5 me-5">
           <div class="project-description">
@@ -107,7 +145,12 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a
+              href="/work.html"
+              class="btn btn-branding-outline"
+              title="Project details"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -116,27 +159,55 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div class="">
-            <h4>Work inquiry</h4>
+            <h3>Work inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
-          <div><a href="" class="btn btn-branding mt-3">Contact me</a></div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact info"
+              >Contact me</a
+            >
+          </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:natalia@ukr.net" class="email-link"
+          <a
+            href="mailto:natalia@ukr.net"
+            class="email-link"
+            title="Natalia's email"
             >natalia@ukr.net</a
           >
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.facebook.com/natalia" target="_blank"
+          <a
+            href="https://www.facebook.com/natalia"
+            target="_blank"
+            title="Facebook"
             ><i class="fa-brands fa-facebook"></i
           ></a>
-          <a href="https://www.instagram.com/natalia" target="_blank"
+          <a
+            href="https://www.instagram.com/natalia"
+            target="_blank"
+            title="Instagram"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://www.github.com/natta-sha" target="_blank"
+          <a
+            href="https://www.github.com/natta-sha"
+            target="_blank"
+            title="Github"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by NBohdanova and it is
+          <a
+            href="https://github.com/Natta-Sha/portfolio-project"
+            title="Link to Github"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
