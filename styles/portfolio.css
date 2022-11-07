@@ -109,11 +109,6 @@ p {
   padding: 12px 20px;
   border-radius: 4px;
 }
-
-.content {
-  margin: 30px;
-}
-
 .content-container {
   padding: 60px 20px;
   text-align: center;
@@ -147,7 +142,7 @@ p {
 }
 
 .content {
-  margin: 30px;
+  margin: 10px;
 }
 
 .hero {
@@ -161,7 +156,6 @@ p {
   font-weight: bold;
   font-size: 36px;
   color: #272142;
-  margin: 0;
 }
 
 .hero h1 {
@@ -202,10 +196,10 @@ p {
 }
 
 @media (max-width: 600px) {
-  h1 {
-    font-size: 44px;
+  .hero h1 {
+    font-size: 50px;
   }
-  h2 {
+  .hero h2 {
     font-size: 15px;
   }
 }
